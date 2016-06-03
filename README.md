@@ -7,6 +7,7 @@ This software send periodically the analog value of the pin A4 to Sigfox network
 
 ##Get hardware
 [The AirBoard](http://sales.theairboard.cc/)
+
 [Atim SigBee shield](http://www.atim.com/fr/produits/catalogue/modules-shields/sigbeelorabee/)
 
 Note: The AirBoard has been designed to be wirelessly reprogrammable. The microUSB connector is used for battery charging only. To upload a new program, you will need additional wireless shields such as XBee or BLE and their associated USB dongle, or an external serial connection over FTDI.
@@ -14,7 +15,9 @@ Note: The AirBoard has been designed to be wirelessly reprogrammable. The microU
 ##Installation
 
 Install Arduino IDE
+
 Get the Arduino library from [API for ARM modules](http://atim-radiocommunications.github.io/armapi/)
+
 Copy/Past the armapi folder under Arduino/libraries
 
 ##Run the code
